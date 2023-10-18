@@ -50,7 +50,7 @@ namespace HRM.API.Db
                         Designation = "Jr. Software Engineer",
                         FathersName = "Md. Mahedee Hasan",
                         MothersName = "Khaleda Islam",
-                        DateOfBirth = new DateTime(2021, 03, 17, 00, 00, 00)
+                        DateOfBirth = new DateTime(2023, 03, 17, 00, 00, 00)
                     }
                 );
                 context.SaveChanges();
