@@ -35,3 +35,6 @@ C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\HRM.API.pdb
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\HRM.API.genruntimeconfig.cache
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\ref\HRM.API.dll
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\HRM.API.sourcelink.json
+C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\bin\Debug\net8.0\HRM.API.dll.config
+C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\HRM.API.csproj.SuggestedBindingRedirects.cache
+C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Debug\net8.0\HRM.API.dll.config
