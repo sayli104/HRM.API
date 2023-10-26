@@ -1,4 +1,8 @@
+using HRM.API.Db;
+using HRM.API.Models;
+using HRM.API.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace HRM.API.Controllers
 {
@@ -12,10 +16,15 @@ namespace HRM.API.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        //private readonly HRMContext _context;
+        //private readonly IEmployeeRepository _employeeRepository;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, HRMContext context)
         {
             _logger = logger;
+            //_context = context;
+            //_employeeRepository = employeeRepository;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -29,5 +38,22 @@ namespace HRM.API.Controllers
             })
             .ToArray();
         }
+
+        //[HttpGet(Name = "GetEmployee")]
+        //[HttpGet(Name = "GetAllEmployee")]
+        //public async Task<ActionResult<List<Employee>>> GetEmployee()
+        //{
+        //    var employee = await this._employeeRepository.SelectAllEmployees();
+        //    return Ok(employee);
+        //}
+
+        //[HttpGet("GetAllCategories")]
+        //public async Task<ActionResult<List<GetCategoryDetailsDto>>> GetAllCategories()
+        //{
+        //    var categories = await this._categoryRepository.GetAllAsync();
+        //    var records = _mapper.Map<List<GetCategoryDetailsDto>>(categories);
+        //    return Ok(records);
+        //}
+
     }
 }
