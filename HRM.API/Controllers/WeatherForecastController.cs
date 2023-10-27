@@ -3,6 +3,8 @@ using HRM.API.Models;
 using HRM.API.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
+using System.Text;
 
 namespace HRM.API.Controllers
 {
@@ -38,6 +40,27 @@ namespace HRM.API.Controllers
             })
             .ToArray();
         }
+
+        //[HttpGet(Name = "GetStringData")]
+        [HttpPost]
+        public string PrintMessage()
+        {
+            String str = "print hello word";
+            return str;
+        }
+
+        //[HttpGet(Name = "GetStringData")]
+        //public IEnumerable<WeatherForecast> GetDescriptionString()
+        //{
+        //    return Enumerable.Range(1, 3).Select(index1 => new WeatherForecast
+        //    {
+        //        Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index1)),
+        //        TemperatureC = Random.Shared.Next(-20, 25),
+        //        Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+        //    })
+        //    .ToArray();
+        //}
+
 
         //[HttpGet(Name = "GetEmployee")]
         //[HttpGet(Name = "GetAllEmployee")]
