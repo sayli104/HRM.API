@@ -32,16 +32,23 @@ using (var scope = app.Services.CreateScope())
     SeedDataGenerator.Initialize(services);
 }
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment() )
+//{
+//    //app.UseSwagger();
+//    //app.UseSwaggerUI();
+//}
+
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
+//if (app.Environment.IsProduction())
 {
-    //app.UseSwagger();
-    //app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-// To show both development and deployment
-app.UseSwagger();
-app.UseSwaggerUI();
+//// To show both development and deployment
+//app.UseSwagger();
+//app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
