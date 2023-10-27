@@ -24,8 +24,16 @@ namespace HRM.API.Controllers
         [HttpGet(Name = "GetAllEmployee")]
         public async Task<ActionResult<List<Employee>>> GetEmployee()
         {
-            var employee = await this._employeeRepository.SelectAllEmployees();
-            return Ok(employee);
+            try
+            {
+                var employee = await this._employeeRepository.SelectAllEmployees();
+                return Ok(employee);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            
         }
 
     }

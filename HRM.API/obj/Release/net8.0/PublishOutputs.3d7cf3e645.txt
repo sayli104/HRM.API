@@ -4,6 +4,7 @@ C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\HRM.API.dll
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\HRM.API.deps.json
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\HRM.API.runtimeconfig.json
+C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\HRM.API.dll.config
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\HRM.API.pdb
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\sayli.patil\source\repos\HRM.API\HRM.API\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
