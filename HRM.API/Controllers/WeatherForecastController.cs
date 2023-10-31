@@ -45,7 +45,7 @@ namespace HRM.API.Controllers
         [HttpPost]
         public string PrintMessage()
         {
-            String str = "print hello word";
+            String str = "Testing of CI/CD Pipeline after commit";
             return str;
         }
 
